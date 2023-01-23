@@ -1,22 +1,22 @@
-* {
+body {
     margin: 0;
     padding: 0;
   }
   .wrapper {
     height: 100%;
     width: 100%;
-    background: linear-gradient(180deg, #04fafd, 5%, #119dff, 50%, #030423);
+    background: linear-gradient(180deg, #f9f9f7be, 5%, #aeae23, 50%, #978e0d);
     position: absolute;
   }
   .wrapper h1 {
-    top: 50%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
-    font-family: sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 1px;
     word-spacing: 2px;
-    color: #fff;
+    color: rgb(226, 15, 40);
     font-size: 40px;
     font-weight: 888;
     text-transform: uppercase;
