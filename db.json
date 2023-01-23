@@ -1,0 +1,219 @@
+{
+    "cocktails": [
+        {
+            "id": 1,
+            "name": "Old Fashioned",
+            "ingredients": ["Whiskey", "Sugar", "Bitters"],
+            "profile": "Spirit Foward",
+            "image": "https://www.liquor.com/thmb/NtKmemhR70zK-UiAaxi2aO9Fgng=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__liquor__2018__05__08113350__bourbon-old-fashioned-720x720-recipe-ade6f7780c304999be3577e565c9bcdd.jpg",
+            "info": "The very first definition of the word “cocktail” in print (way back in 1806) described a combination of sugar, bitters, water, and spirit. In other words, this drink is precisely what the word cocktail referred to 200 years ago. Old Fashioned, indeed. It typically calls for bourbon or rye whiskey, but variations abound. In theory, you could swap out the spirit, sweetener or bitters for endless new versions of the Old Fashioned. But the original is so solid, it's definitely where you should start."
+        }
+        ,
+        {
+            "id": 2,
+            "name": "Daiquiri",
+            "ingredients": ["Gin", "Sugar","Lemon"],
+            "profile": "Citrus Foward",
+            "image": "https://www.liquor.com/thmb/vhTWdetiNSO2_giinf9_Gzsd-xE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__liquor__2018__04__23143458__daiquiri-720x720-recipe-09f1d5665a794eddbbfb997876736136.jpg",
+            "info": "The blender has certainly put its stamp on the Daiquiri, but this profoundly simple drink is at its best when it stays clear of a steel blade. Simply shake up rum, simple syrup and a blast of fresh lime juice, and you have the most perfect of citrusy cocktails."
+        }
+        ,
+        {
+            "id": 3,
+            "name": "Margarita",
+            "ingredients": ["Tequila", "Sugar","Lime"],
+            "profile": "Citrus Foward",
+            "image": "https://www.liquor.com/thmb/8yoPCYMZu1API5ufW48kFnPKI2E=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/margarita-720x720-primary-f4a3b044e9a746d9b88890515c3a7328.jpg",
+            "info": "You have probably had a bad Margarita. Or more than one. But when this zesty classic is made correctly—with quality tequila, orange liqueur, and lime juice—the drink carries itself upright. The history of the Margarita is deep: Its progenitor, the Tequila Daisy, has been around since the 1930s, when there were no bottled mixes. Or blenders. The drink has come a long way, but finding your way back to its earliest incarnations is key to appreciating it."
+        }
+        ,
+        {
+            "id": 4,
+            "name": "Negroni",
+            "ingredients": ["Gin", "Campari","Sweet Vermouth"],
+            "profile": "Spirit Foward",
+            "image": "https://www.liquor.com/thmb/hyp_VuOB4yMPzx214rc9NvpHOOU=/380x380/filters:max_bytes(150000):strip_icc():format(webp)/negroni-720x720-primary-535dee7b50914af1810b1927b69dbe46.jpg",
+            "info":"Born of a happy accident during the early 20th century, this drink was created by Count Camillo Negroni, who swapped the traditional club soda in his Americano with gin. The Negroni/'s bitter intensity and easy equal-parts formula have helped make it a favorite among home and professional bartenders alike."
+        }
+        ,
+        {
+            "id": 5,
+            "name": "Manhattan",
+            "ingredients": ["Whiskey", "Sweet Vermouth","Bitters"],
+            "profile": "Spirit Foward",
+            "image": "https://www.liquor.com/thmb/HzpPZK6Lt8iJUGVdQUu4l22TBAo=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__liquor__2018__05__10144903__Manhattan-720x720-recipe-9497922907c14d91898f557cb51f2ea3.jpg",
+            "info":"No one knows for certain who created this cocktail or where. Despite its mysterious history, it likely came into being sometime around the 1880s as a combination of rye whiskey, sweet vermouth and aromatic bitters. While many bartenders today substitute bourbon for rye, there is nothing like the original."
+        }
+        ,
+        {
+            "id": 6,
+            "name": "Martini",
+            "ingredients": ["Gin", "Dry Vermouth","Twist"],
+            "profile": "Spirit Foward",
+            "image": "https://www.liquor.com/thmb/5RHW8WBG5z_O5-lAL_gsiFpxnnQ=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/dry-martini-720x720-primary-a6de08f8cd584ad88520287922578bcb.jpg",
+            "info":"The Martini is known for its allure and sophistication, but its origins are muddled at best. The formula appeared in print under several different names around the turn of the 20th century. Made traditionally with gin (although vodka is a frequent substitute), dry vermouth, and orange bitters, its a cocktail that ignites the imagination."
+        }
+        ,
+        {
+            "id": 7,
+            "name": "Whiskey Sour",
+            "ingredients": ["Whiskey", "Lemon","Sugar", "Egg White"],
+            "profile": "Citrus Foward",
+            "image": "https://www.liquor.com/thmb/fl-wSducT9GfkX-YdrEMBWd8Slc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/whiskey-sour-720x720-primary-v2-4fc831b613964da5a19cdbfda917d7df.jpg",
+            "info":"When the recipe for this cocktail first appeared in 1862 in the famed Jerry Thomas Bartender Guide, it called for an egg white to be shaken along with whiskey, lemon juice, and simple syrup, taming the tartness and giving the drink a richer texture. In modern times, however, its common for the egg to be left out."
+        }
+        ,
+        {
+            "id": 8,
+            "name": "Tom Collins",
+            "ingredients": ["Gin", "Lemon","Sugar", "Club Soda"],
+            "profile": "Citrus Foward",
+            "image": "https://www.liquor.com/thmb/M6S_JbJBw54L7NQAr6UWgSVwLJA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__liquor__2019__04__03080950__Tom-Collins-720x720-recipe-e87bf7954cdb4438b5e8d21f568cdd6f.jpg",
+            "info":"A likely descendent of the gin punches of the 19th century, this mix of gin, lemon juice, simple syrup, and club soda tastes like a spiked sparkling lemonade and goes down just as easily. With no special equipment needed to make it—it’s built right in the same glass you drink it out of—this is one simple, cooling cocktail you’ll be glad to know how to make on a hot summer afternoon."
+        }
+        ,
+        {
+            "id": 9,
+            "name": "Sazerac",
+            "ingredients": ["Rye Whiskey", "Sugar","Bitters","Absinthe Rinse"], 
+            "profile": "Spirit Foward",
+            "image": "https://www.liquor.com/thmb/eH5fDHf_Hn68OtOi-iM05y07gUQ=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__liquor__2018__05__10145323__sazerac-720x720-recipe-2c78066a77ab453481aceb83c219d78f.jpg",
+            "info" :"Created in the mid-1800s at the Sazerac Coffee House in the storied Crescent City, the Sazerac is a complex concoction that starts with an absinthe rinse. Rye whiskey (originally cognac, but that swap happened pretty early), bitters (most often Peychauds), and a sugar cube create a boozy yet fragrant sipper."
+        }
+        ,
+        {
+            "id": 10,
+            "name": "Paloma",
+            "ingredients": ["Tequila", "Grapefruit Juice or Soda","Lime", "Sugar"],
+            "profile": "Citrus Foward",
+            "image": "https://www.liquor.com/thmb/SvN5N9N0JtvZZFjVkw3YYPchwX8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__liquor__2017__11__06095937__paloma-720x720-recipe-ab2d9e665c5540ea816a1995859010cd.jpg",
+            "info" :"It may get overshadowed by the Margarita stateside, but this is Mexicos favorite cocktail. Drink snobs will tell you the tequila should be joined in the glass by freshly squeezed grapefruit juice and club soda, with a squeeze of lime, but I have tried it both ways and can assure you that the standard way of making the drink, with grapefruit soda (and, yes, that same squeeze of lime) is every bit as delicious and a whole lot easier."
+        }
+        ,
+        {
+            "id": 11,
+            "name": "Moscow Mule",
+            "ingredients": ["Vodka", "Lime", "Ginger Beer"],
+            "profile": "Citrus Foward",
+            "image": "https://www.liquor.com/thmb/fg9ShkaVPQ2w-LHi37aLZSqKnCw=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__liquor__2017__03__07152853__moscow-mule-720x720-recipe-61ce552013b04880901b2abfb63017fd.jpg",
+            "info" :"Said to have been created in the 1940s as a way to introduce Americans to vodka, a then-uncommon spirit, this simple three-ingredient cocktail is an easy mix of vodka, lime juice, and spicy ginger beer. Its perhaps most notable for the vessel its traditionally served in, an eye-catching copper mug."
+        }
+        ,
+        {
+            "id": 12,
+            "name": "Sidecar",
+            "ingredients": ["Cognac", "Lemon", "Orange Liquor", "Sugar Rim"],
+            "profile": "Citrus Foward",
+            "image": "https://www.liquor.com/thmb/-gjTPURhwipa6qWg8_DZQDcuafU=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__liquor__2019__05__22111906__sidecar-720x720-recipe-4758380fb7ef4adfaafa21c3f4eed264.jpg",
+            "info" :"Its now common practice to sip cognac neat. It sure does shine that way. But youll gain a new appreciation for the remarkably versatile French spirit after you try it in this citrusy cocktail, a mixture of cognac, fresh lemon juice, and the orange liqueur Cointreau. Dont balk at the sugar-coated rim: Its there to mask the Sidecars wicked tongue."
+        }
+        ,
+        {
+            "id": 13,
+            "name": "Martinez",
+            "ingredients": ["Gin", "Sweet Vermouth", "Maraschino Liqueur", "Bitters"],
+            "profile": "Spirit Foward",
+            "image": "https://www.liquor.com/thmb/-1rG5aikTJQx1mdoqBogQ5bUHjw=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__liquor__2019__05__14082109__martinez-v2-720x720-recipe-7cb59a52cf8b43a89aeae26ea594d70e.jpg",
+            "info" : "This cocktail is widely considered the precursor to the modern Martini, but the family likeness isnt particularly close. The Martinez calls for gin, sweet vermouth, maraschino liqueur, and Angostura bitters, rendering a flavorful and sweet-leaning cocktail that bears only a hint of resemblance to its dry-vermouth relation."
+        }
+        ,
+        {
+            "id": 14,
+            "name": "Pimm's Cup",
+            "ingredients": ["Pimms No.1", "Lemon", "Ginger Beer"],
+            "profile": "Citrus Foward",
+            "image": "https://www.liquor.com/thmb/VL2yjncWBQ_ZOcyIFY7Gc-xxLrg=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__liquor__2019__10__29142721__pimms-cup-720x720-recipe-e0c8e82adb6249a898be85f4136f3643.jpg",
+            "info" : "An abundance of garnishes is the name of the game with this cocktail that often resembles a bouquet of garden-fresh produce. Gin-based Pimms No. 1 liqueur combines with lemon juice and ginger ale in a glass topped with everything from cucumber slices to various fruits, plus a mint sprig."
+        }
+        ,
+        {
+            "id": 15,
+            "name": "Pisco Sour",
+            "ingredients": ["Pisco", "Lime", "Sugar", "Egg White"],
+            "profile": "Citrus Foward",
+            "image": "https://www.liquor.com/thmb/KYGy9ew2q16Otfj37mneK678gQA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__liquor__2019__02__08143927__pisco-sour-720x720-recipe-9c46d52151e5445fa90bcf0394493060.jpg",
+            "info" : "The Pisco Sour is so popular that both Chile and Peru claim it as their national drink. Little wonder: It is a tart, frothy masterpiece of pisco (the unaged grape brandy native to those two countries), lime juice, simple syrup, and an egg white. Three drops of bitters finish it off to create an aromatic and aesthetically pleasing refreshment."
+        }
+        ,
+        {
+            "id": 16,
+            "name": "French 75",
+            "ingredients": ["Gin", "Lemon", "Sugar", "Champagne"],
+            "profile": "Citrus Foward",
+            "image": "https://www.liquor.com/thmb/BU4rXPbO0Qu5uwRkguTD88ISLN8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/french-75-720x720-primary-17fc1ce34c0a49e2ad60eb4a5705c6a2.jpg",
+            "info" : "This most festive of cocktails, named for a piece of French artillery used in World War I, calls for a Champagne topper to the shaken mix of gin, lemon juice, and simple syrup. The bubbly element renders it an ideal drink for New Years Eve or similar celebrations, but it is a great way to kick off an ordinary weekend brunch as well."
+        }
+        ,
+        {
+            "id": 17,
+            "name": "Mint Julep",
+            "ingredients": ["Whiskey","Mint", "Sugar"],
+            "profile": "Spirit Foward",
+            "image": "https://www.liquor.com/thmb/gjBtqPZIm4V39QNZJhEVz8oztcQ=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/mint-julep-720x720-primary-5e2063b906384479b345687201992bd0.jpg",
+            "info" : "This bourbon cocktail is the signature drink of the Kentucky Derby, sure. But drinking it shouldnt be relegated to just one day a year. The blend of whiskey, simple syrup, and muddled mint leaves, most frequently served in a julep cup over crushed ice and sporting a mint sprig topper, is a fun way to cool down on any hot day."
+        }
+        ,
+        {
+            "id": 18,
+            "name": "Last Word",
+            "ingredients": ["Gin","Green Chartreuse", "Maraschino Liqueur", "Lime"],
+            "profile": "Spirit Foward",
+            "image": "https://www.liquor.com/thmb/gd2Qyvk457nv7YamzGJpXLAWslc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__liquor__2019__06__06222245__last-word-720x720-recipe-35fdadb31c224ebe9bf9b6c63c23e0bf.jpg",
+            "info" : "One of the few classic cocktails with origins that can be traced with certainty, the Last Word was first served at the Detroit Athletic Club around 1915. A flavorful mix of gin, herbaceous green Chartreuse, sweet maraschino liqueur, and tart lime juice, this polarizing cocktail may not be for everyone, but its many fans are a truly devoted bunch."
+        }
+        ,
+        {
+            "id":19,
+            "name": "Irish Coffee",
+            "ingredients": ["Whiskey", "Coffee", "Brown Sugar", "Cream"],
+            "profile": "Coffee Foward",
+            "image": "https://www.liquor.com/thmb/p36O1JbDOPLf4VtpBK0rFV7272M=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__liquor__2017__02__22140200__irish-coffee-720x720-recipe1-b1ddbe38da014bdb9c21cb2b6fcc629f.jpg",
+            "info" : "There are not many reliably delicious ways to get both your caffeine and booze fixes at the same time. The Irish Coffee does the job beautifully. The drink—called Gaelic Coffee in the Old Country—is a blend of Irish whiskey, coffee, brown-sugar syrup, and cream. Pro tip: Whip the cream just enough so that it floats on top of the drink."
+        }
+        ,
+        {
+            "id": 20,
+            "name": "Corpse Reviver No.2",
+            "ingredients": ["Dry Gin", "Lillet Blanc", "Orange Liquor", "Lemon", "Absinthe Rinse"],
+            "profile": "Spirit Foward",
+            "image": "https://www.liquor.com/thmb/mIFeUd7rRUErqJUYNX65oMN9-NQ=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__liquor__2012__01__04131053__corpse-reviver-no-2-720-720-recipe-2bff23c62c3047acae5c17f8698c3319.jpg",
+            "info" : "Here, London Dry gin combines with Lillet Blanc, orange liqueur, and lemon juice in an absinthe-rinsed glass. Originally created as a hangover cure, this cocktail is just as likely to send you back into one—in the most delicious of ways, of course."
+        }
+        ,
+        {
+            "id": 21,
+            "name": "Mojito",
+            "ingredients": ["Rum", "Lime", "Mint", "Club Soda"],
+            "profile": "Citrus Foward",
+            "image": "https://www.liquor.com/thmb/FT93SOR8tcIN4mPuitQXC1eP2tI=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__liquor__2018__09__04153106__mojito-720x720-recipe-a55b114fc99c4a64b38c9ef6d1660e20.jpg",
+            "info" : "This Cuban classic calls for combining unaged white rum, lime juice, muddled mint leaves, and sugar before topping it all with club soda. It is a refreshing drink that provides a blast of flavor to take you straight into the Caribbean tropics, as perfect at a party as it is poolside."
+        }
+        ,
+        {
+            "id": 22,
+            "name": "Gin Fizz",
+            "ingredients": ["Gin", "Lemon", "Sugar", "Egg White","Club Soda"],
+            "profile": "Citrus Foward",
+            "image": "https://www.liquor.com/thmb/kKkEh47_-BMSaeafUTnJUGVSWKM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/gin-fizz-720x720-primary-v3-2c1390963d014e35a01d741df2f9ae77.jpg",
+            "info" : "This bright and effervescent combination of gin, lemon juice, simple syrup, an egg white, and club soda—akin to a Tom Collins plus egg white, or a Gin Sour with bubbles—produces a fizzy, frothy delight. Add orange flower water and a splash of cream, and you will get the famed Ramos Gin Fizz, a New Orleans classic and the bane of bartenders everywhere for the amount of shaking required to make one properly. This, however, is the more simple and most classic version of the drink."
+        }
+        ,
+        {
+            "id": 23,
+            "name": "Bloody Mary",
+            "ingredients": ["Vodka", "Tomato Juice", "Worcestershire", "Horseradish", "Clerey Salt"],
+            "profile": "Savory Foward",
+            "image": "",
+            "info" : "It is a hangover cure, a nutritious breakfast, an airport bar staple. This tomato- and vodka-based classic, created in Paris in the 1920s, is one of those drinks every city, every bar, and every bartender makes their own way. If you have only ever had it with bottled mix and a fridgeful of garnishes, try a more traditional version with Worcestershire sauce, horseradish, and celery salt, plus good vodka and tomato juice. The drinks balance may surprise you."
+        }
+        ,
+        {
+            "id": 24,
+            "name": "Gimlet",
+            "ingredients": ["Gin", "Lime", "Sugar"],
+            "profile": "Citrus Foward",
+            "image": "https://www.liquor.com/thmb/vzlk6OX8kMFr4ZyBxXolZbrbdWc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__liquor__2019__09__12092910__Vodka-Gimlet-720x720-recipe-e0aad3b18d514bd99faceb8b57f5d446.jpg",
+            "info" : "Believed to have been created by British sailors (as many of the oldest cocktails were) as a way to prevent scurvy, this drink mixes a clear spirit, lime juice, and simple syrup to create a refreshing (and vitamin C-filled) cocktail. The original used gin as its base, while the vodka-based variation has since greatly surpassed it in popularity. Either one is worth a spot in your summertime heavy cocktail rotation."
+        }
+        ]
+}
