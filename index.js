@@ -1,54 +1,39 @@
-///////LOGIN PAGE////////
-// Get the form element
-//const loginForm = document.getElementById("login-form");
-//
-//// Listen for the form submission event
-//loginForm.addEventListener("submit", (event) => {
-//  // Prevent the default form submission behavior
-//  event.preventDefault();
-//
-//  // Collect the form data
-//  const formData = new FormData(loginForm);
-//  const username = formData.get("username");
-//  const password = formData.get("password");
-//
-//  // Send a request to the server to check the credentials
-//  fetch("/login", {
-//    method: "POST",
-//    body: formData,
-//  })
-//    .then((response) => response.json())
-//    .then((data) => {
-//      if (data.status === "success") {
-//        // Redirect the user to a new page or show a success message
-//        window.location.href = "/home";
-//      } else {
-//        // Show an error message to the user
-//        alert("Invalid username or password");
-//      }
-//    })
-//    .catch((error) => {
-//      console.error("Error:", error);
-//    });
-//});
+
+
+
+fetch("http://localhost:3000/cocktails/1")
+    .then(response => response.json())
+    .then((data) => (console.log(data)));
+
+
+
+
+
+
+
+
+
+
+
+
 ////////RANDOMIZER/////////
-// Get the button element
-//const button = document.getElementById("randomize-button");
-//
-//// Listen for the button click event
-//button.addEventListener("click", () => {
-//  // Send a request to the API
-//  fetch("https://api.example.com/randomize")
-//    .then((response) => response.json())
-//    .then((data) => {
-//      // Update the page with the random data
-//      document.getElementById("random-result").innerHTML = data.result;
-//    })
-//    .catch((error) => {
-//      console.error("Error:", error);
-//    });
-//});
-//
+//Get the button element
+const button = document.getElementById("randomize-button");
+
+// Listen for the button click event
+button.addEventListener("click", () => {
+  // Send a request to the API
+  fetch("http://localhost:3000/cocktails")
+    .then((response) => response.json())
+    .then((data) => {
+      // Update the page with the random data
+      document.getElementById("random-result").innerHTML = data.result;
+    })
+    .catch((error) => {
+      console.error("Error:", error);
+    });
+});
+
 /////////SEARCH BY SPIRIT/COCKTAIL/////////
 //const searchInput = document.getElementById("search-input");
 //const searchBtn = document.getElementById("search-button");
