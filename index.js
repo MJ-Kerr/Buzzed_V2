@@ -9,11 +9,6 @@ const url = "http://localhost:3000/cocktails"
 
 
 
-fetch(url)
-    .then(response => response.json())
-    .then((data) => (console.log(data)))
-    
-    
 function renderCocktail(cocktail){
     const li = document.createElement("li")
     li.className = "list-li";
@@ -35,7 +30,6 @@ function renderCocktail(cocktail){
     button.textContent = "Add to Cocktail List";
     li.appendChild(button);
 
-    cocktailInfo.appendChild(li);
     
 
     
