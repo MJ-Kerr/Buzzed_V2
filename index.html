@@ -1,131 +1,61 @@
-<!-- <!DOCTYPE html> -->
-<!-- <html> -->
-<!--  -->
-<!-- <head> -->
-  <!-- <meta charset="utf-8" /> -->
-  <!-- <title>Buzzed</title> -->
-  <!-- <link rel="stylesheet" type="text/css" href="index.css" /> -->
-  <!-- <script defer type="text/css" src="index.css"></script> -->
-  <!-- <script src="index.js" defer></script> -->
-<!-- </head> -->
-<!--  -->
-<!-- <body> -->
-  <!-- <header> -->
-    <!-- <h3>Buzzed</h3> -->
-  <!-- </header> -->
-<!--  -->
-  <!--  -->
-  <!-- <div id="cocktail-menu"> -->
-  <!-- </div> -->
-<!--  -->
-  <!-- <div id="cocktail-detail"> -->
-    <!-- <img class="imageUrl" src="http://localhost:3000/cocktails"/> -->
-    <!-- <h3 class="name">Insert Name Here</h3> -->
-  <!-- </div> -->
-<!--  -->
-  <!-- <h3>Rating:</h3> -->
-  <!-- <p> -->
-    <!-- <span id='rating-display'>Insert rating here</span> / 10 -->
-  <!-- </p> -->
-  <!-- <h3>Comment:</h3> -->
-  <!-- <p id='comment-display'> -->
-    <!-- Insert comment here -->
-  <!-- </p> -->
-  <!-- <h3>Preperation:</h3> -->
-  <!-- <p> -->
-    <!-- <span id="prep-display">Prep:</span> -->
-  <!-- </p> -->
-<!--  -->
-  <!--  -->
-  <!-- <form id="new-cocktail"> -->
-    <!-- <h4>Add New Cocktail</h4> -->
-    <!-- <label for="name">Name: </label> -->
-    <!-- <input type="text" name="name" id="new-name" /> -->
-    <!-- <label for="prep">Preperation: </label> -->
-    <!-- <input type="text" name="prep" id="new-prep" /> -->
-    <!-- <label for="image">Image: </label> -->
-    <!-- <input type="text" name="image" id="new-image" /> -->
-    <!-- <label for="rating">Rating: </label> -->
-    <!-- <input type="number" name="rating" id="new-rating" /> -->
-    <!-- <label for="new-comment">Comment: </label> -->
-    <!-- <textarea name="new-comment" id="new-comment"></textarea> -->
-    <!-- <input type="submit" value="Create" /> -->
-  <!-- </form> -->
-<!--  -->
-<!-- </body> -->
-<!--  -->
-<!-- </html> -->
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Buzzed</title>
-        <script src="index.js" defer></script>
-        <link rel="stylesheet" type="text/css" href="index.css" />
-        <body  class = "">
-                <div class = "list" id = "header"></div>                                    
-                  <header>
-                    <h1>Buzzed</h1>
-                    <div class = "Banner"></div>     
-                  </header>
-                  <button type="click" class="next-btn">Next</button>
-                  <button type="click" class="prev-btn">Prev</button>
-                  <main> 
-                    <div id="form-wrapper">
-                    <button id="toggleForm">New Cocktail</button>
-                    <form id="cocktail-form" class="collapsed">
-                    
-                      <label for="form-title">Cocktails:</label>
-                      <input type="text" id="form-title" name="title">
-            
-                      <label for="form-ingredients">Ingredients:</label>
-                      <input type="text" id="form-author" name="ingredients">
-                    
-                      <label for="form-imageUrl">Image url:</label>
-                      <input type="text" id="form-imageUrl" name="imageUrl">
-
-                      <label for="form-profile">Profile:</label>
-                      <input type="text" id="form-profile" name="profile">
-
-                      <label for = "form-prep">Prep:</label>
-                      <input type="text" id="form-prep" name="prep">
-                    
-                      <input type="submit" value="ADD COCKTAIL"/>
-                    </form>         
-                    <div class="form-container">
-                        <div class="row">
-                        <p>
-                          <div class="list">
-                  <ul id="cocktail-list">
-                  </ul> 
-                <div id="data-container"></div>
-
-                </p>
-                  </main>
-                  <div class="wrapper"> 
-                    
-              <div><span class="dot"><button>Created By:</button></span></div>
-              <div><span class="dot"><button>Miles Kerr</button></span></div>              
-              <div><span class="dot"></span></div>
-              <div><span class="dot"><button>Tim Urbom</button></span></div><div><span class="dot"></span></div>
-              <div><span class="dot"></span></div>
-              <div><span class="dot"><button>Stacie Rogers</button></span></div><div><span class="dot"></span></div>
-              <div><span class="dot"></span></div>
-              <div><span class="dot"></span></div>
-              <div><span class="dot"></span></div>
-              <div><span class="dot"></span></div>
-              <div><span class="dot"></span></div>
-              <div><span class="dot"></span></div>
-              <div><span class="dot"></span></div>
-            </div>
-            
-          </body>
-          <footer>
-            <div class="footer"> 
-            
-            </div>
-          </footer>
-</html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Buzzed</title>
+  <script src="index.js" defer></script>
+  <link rel="stylesheet" type="text/css" href="index.css" />
+  <body>
+      <div class="wrapper">
+                                          
         
+  <body  class = "">
+          <div class = "list" id = "header"></div>                                    
+            <header>
+              <h1>Buzzed</h1>
+              <div class = "Banner"></div>     
+            </header>
+            
+       
+
+            <main> 
+              <div id="form-wrapper">
+              <button id="toggleForm">New Cocktail</button>
+              <form id="cocktail-form" class="collapsed">
+
+                <label for="form-title">Cocktails:</label>
+                <input type="text" id="form-title" name="title">
+
+                <label for="form-ingredients">Ingredients:</label>
+                <input type="text" id="form-author" name="ingredients">
+
+                <label for="form-imageUrl">Image url:</label>
+                <input type="text" id="form-imageUrl" name="imageUrl">
+
+                <label for="form-profile">Profile:</label>
+                <input type="text" id="form-profile" name="profile">
+
+                <label for = "info-profile">Prep:</label>
+                <input type="text" id="info-profile" name="prep">
+
+                <input type="submit" value="ADD COCKTAIL"/>
+              </form>         
+              <div class="form-container">
+                  <div class="row">
+                  <p>
+                    <div class="list">
+            <ul id="cocktail-list">
+            </ul>
+          </p>
+            </main>
+            <div class="wrapper"> 
+              <div class="favorites">
+                MY FAVS!
+                <ul class="fav-list"></ul>
+      
+              </div>
+        
+    </body>
+  
+</html>
